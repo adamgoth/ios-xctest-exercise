@@ -14,6 +14,8 @@
 		F9B3A32F1D8B5E5D0037713C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B3A32D1D8B5E5D0037713C /* LaunchScreen.storyboard */; };
 		F9B3A33A1D8B5E5D0037713C /* xctest_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B3A3391D8B5E5D0037713C /* xctest_exerciseTests.swift */; };
 		F9B3A3451D8B5E5D0037713C /* xctest_exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B3A3441D8B5E5D0037713C /* xctest_exerciseUITests.swift */; };
+		F9B3A3551D8B5FCE0037713C /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B3A3541D8B5FCE0037713C /* PlayData.swift */; };
+		F9B3A3571D8B63200037713C /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = F9B3A3561D8B63200037713C /* plays.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F9B3A3401D8B5E5D0037713C /* xctest-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xctest-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B3A3441D8B5E5D0037713C /* xctest_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xctest_exerciseUITests.swift; sourceTree = "<group>"; };
 		F9B3A3461D8B5E5D0037713C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B3A3541D8B5FCE0037713C /* PlayData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
+		F9B3A3561D8B63200037713C /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				F9B3A3241D8B5E5D0037713C /* AppDelegate.swift */,
 				F9B3A3261D8B5E5D0037713C /* ViewController.swift */,
 				F9B3A3281D8B5E5D0037713C /* Main.storyboard */,
+				F9B3A3541D8B5FCE0037713C /* PlayData.swift */,
 				F9B3A32B1D8B5E5D0037713C /* Assets.xcassets */,
 				F9B3A32D1D8B5E5D0037713C /* LaunchScreen.storyboard */,
 				F9B3A3301D8B5E5D0037713C /* Info.plist */,
+				F9B3A3561D8B63200037713C /* plays.txt */,
 			);
 			path = "xctest-exercise";
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B3A3571D8B63200037713C /* plays.txt in Resources */,
 				F9B3A32F1D8B5E5D0037713C /* LaunchScreen.storyboard in Resources */,
 				F9B3A32C1D8B5E5D0037713C /* Assets.xcassets in Resources */,
 				F9B3A32A1D8B5E5D0037713C /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B3A3551D8B5FCE0037713C /* PlayData.swift in Sources */,
 				F9B3A3271D8B5E5D0037713C /* ViewController.swift in Sources */,
 				F9B3A3251D8B5E5D0037713C /* AppDelegate.swift in Sources */,
 			);
